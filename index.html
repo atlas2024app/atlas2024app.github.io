@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario de Domótica</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-out;
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h1 {
+            text-align: center;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .termino {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            transition: all 0.3s ease-out;
+        }
+        .termino:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .termino h2 {
+            color: #ff6347; /* Rojo */
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .termino p {
+            color: #666;
+            line-height: 1.4;
+        }
+
+        /* Media queries para móviles */
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .termino {
+                padding: 15px;
+            }
+            .termino h2 {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Diccionario de Domótica</h1>
+
+        <div class="termino">
+            <h2>1. Domótica</h2>
+            <p>La domótica se refiere al conjunto de sistemas y tecnologías orientadas a automatizar las funciones de una vivienda o edificio.</p>
+        </div>
+
+        <div class="termino">
+            <h2>2. IoT (Internet of Things)</h2>
+            <p>El Internet de las Cosas se refiere a la red de dispositivos físicos, vehículos, electrodomésticos y otros objetos que están integrados con tecnología para conectar e intercambiar datos a través de Internet.</p>
+        </div>
+
+        <div class="termino">
+            <h2>3. Sensores</h2>
+            <p>Dispositivos que detectan y responden a estímulos físicos o ambientales y envían la información captada a otros dispositivos o sistemas.</p>
+        </div>
+
+        <div class="termino">
+            <h2>4. Actuadores</h2>
+            <p>Componentes de un sistema domótico que ejecutan acciones físicas, como encender o apagar luces, abrir o cerrar puertas, etc.</p>
+        </div>
+
+        <div class="termino">
+            <h2>5. Automatización</h2>
+            <p>Capacidad de un sistema domótico para realizar tareas automáticamente según programación o condiciones del entorno.</p>
+        </div>
+
+        <div class="termino">
+            <h2>6. Gateway</h2>
+            <p>Dispositivo que actúa como puente entre diferentes protocolos de comunicación utilizados en sistemas domóticos.</p>
+        </div>
+
+        <div class="termino">
+            <h2>7. Protocolo de Comunicación</h2>
+            <p>Estándar utilizado para que los dispositivos domóticos se comuniquen entre sí, como Zigbee, Z-Wave, etc.</p>
+        </div>
+
+        <div class="termino">
+            <h2>8. Hub</h2>
+            <p>Dispositivo central en un sistema domótico que controla la comunicación entre los diferentes dispositivos.</p>
+        </div>
+
+        <div class="termino">
+            <h2>9. Interface de Usuario (UI)</h2>
+            <p>Interfaz gráfica a través de la cual los usuarios interactúan y controlan los dispositivos domóticos.</p>
+        </div>
+
+        <div class="termino">
+            <h2>10. Red Mesh</h2>
+            <p>Red de malla que permite una comunicación más robusta y eficiente entre los dispositivos domóticos distribuidos por toda la casa.</p>
+        </div>
+
+        <div class="termino">
+            <h2>11. Domótica Inalámbrica</h2>
+            <p>Sistemas domóticos que utilizan tecnologías inalámbricas como Bluetooth, Wi-Fi, Zigbee, etc., para la comunicación entre dispositivos.</p>
+        </div>
+
+        <div class="termino">
+            <h2>12. Sistema de Seguridad Domótica</h2>
+            <p>Conjunto de dispositivos y tecnologías que protegen la vivienda mediante la detección y alerta de intrusiones, incendios, fugas de gas, etc.</p>
+        </div>
+
+        <div class="termino">
+            <h2>13. Smart Speaker</h2>
+            <p>Altavoz inteligente que permite controlar dispositivos domóticos mediante comandos de voz.</p>
+        </div>
+
+        <div class="termino">
+            <h2>14. Geolocalización</h2>
+            <p>Tecnología que utiliza la ubicación física de los dispositivos móviles para activar o desactivar dispositivos domóticos según la ubicación del usuario.</p>
+        </div>
+
+        <div class="termino">
+            <h2>15. Sistema HVAC</h2>
+            <p>Sistema de calefacción, ventilación y aire acondicionado que puede ser controlado de manera inteligente mediante sistemas domóticos.</p>
+        </div>
+
+        <div class="termino">
+            <h2>16. Escenas Domóticas</h2>
+            <p>Configuraciones predefinidas que permiten activar múltiples dispositivos domóticos con un solo comando o acción.</p>
+        </div>
+
+        <div class="termino">
+            <h2>17. Energía Solar Domótica</h2>
+            <p>Sistemas domóticos que gestionan la generación, almacenamiento y consumo de energía solar en una vivienda.</p>
+        </div>
+
+        <div class="termino">
+            <h2>18. Wearables en Domótica</h2>
+            <p>Dispositivos tecnológicos que se llevan puestos y que están integrados en sistemas domóticos, como relojes inteligentes, pulseras de actividad, etc.</p>
+        </div>
+
+        <div class="termino">
+            <h2>19. Domótica DIY (Hazlo tú mismo)</h2>
+            <p>Sistemas domóticos que pueden ser instalados y configurados por el usuario sin necesidad de contratistas o instaladores profesionales.</p>
+        </div>
+
+        <div class="termino">
+            <h2>20. Integración de Dispositivos</h2>
+            <p>Capacidad de diferentes marcas y tipos de dispositivos domóticos para trabajar juntos en un mismo sistema, proporcionando una experiencia de usuario integrada.</p>
+        </div>
+
+    </div>
+</body>
+</html>
